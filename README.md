@@ -8,3 +8,7 @@ Dans le cadre d'une UE de gestion de bases de données nous avons modélisé dan
 
 Mon collègue Nathan Chrétien a réalisé une visualisation du résultat via une interface PHP (fonctionnelle que via un serveur local) tandis que de mon côté,
 j'ai réalisé une interface HTML/CSS
+
+## Lancement
+
+Pour accéder à ces visualisations, il suffit d'ouvrir le fichier index.html présent dans le dossier src
