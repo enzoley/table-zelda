@@ -1,0 +1,76 @@
+* {
+    font-family: "Hylia Serif";
+}
+
+timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+nomDeTimeline {
+    font-size: 3rem;
+    padding: 5px;
+    background: rgba(43, 236, 76, 0.51);
+    border-radius: 10px;
+    box-shadow: 10px 10px #111111;
+}
+
+timeline:before {
+    content: attr(nom);
+    display: block;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+jeu {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: bisque;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+nomDeJeu {
+    font-size: 3rem;
+    color: red;
+}
+
+dateDeSortie::before {
+    content: "Date de sortie : ";
+    color: red;
+}
+
+description::before {
+    content: "Description : ";
+    color: red;
+}
+
+note::before {
+    content: "Note : ";
+    color: red;
+}
+
+multijoueur::before {
+    content: "Multijoueur : ";
+    color: red;
+}
+
+theme::before {
+    content: "Theme : ";
+    color: red;
+}
+
+classification::before {
+    content: "PEGI : ";
+    color: red;
+}
+
+@font-face {
+    font-family: "Hylia Serif";
+    src: url("./HyliaSerifBeta-Regular.otf");
+}

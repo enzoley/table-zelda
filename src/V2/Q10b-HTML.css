@@ -1,0 +1,217 @@
+* {
+    font-family: "Hylia Serif";
+}
+
+body {
+    background-image: url("botw_1_1920.jpg");
+
+}
+
+.titre-site {
+    font-size: 7rem;
+    color: red;
+    font-family: "Hylia Serif";
+}
+
+.titre-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#zelda-logo {
+    width: 400px;
+}
+
+#div-table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+#table:hover .table-image {
+    display: block;
+}
+
+.table-image {
+    display: none;
+}
+
+.navbar {
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    right: 20px;
+    margin-bottom: 20px;
+}
+
+.logo-navbar {
+    float: right;
+}
+
+.logo-navbar img {
+    height: 25px;
+    padding: 10px;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #111;
+    color: red;
+}
+
+iframe {
+    margin: 10px;
+    border: 10px solid #333;
+    border-radius: 10px;
+}
+
+#easteregg {
+    text-decoration: none;
+    color: #111;
+}
+
+#easteregg:hover {
+    cursor: default;
+}
+
+.div-body {
+    font-size: 25px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: fit-content;
+    font-size: 25px;
+    padding: 5px;
+}
+
+th,
+td {
+    padding: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.35);
+
+}
+
+thead {
+    font-size: 3rem;
+    color: red;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 10px;
+
+
+}
+
+.navbar img {
+    float: right;
+    height: 30px;
+    padding: 10px;
+}
+
+@font-face {
+    font-family: "Hylia Serif";
+    src: url("./HyliaSerifBeta-Regular.otf");
+}
+
+.div-body {
+    padding-top: 100px;
+}
+
+.description {
+    margin-bottom: 60px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button {
+    padding: 12px 20px;
+    margin-bottom: 125px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    width: 300px;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 100%;
+}
+
+.image-jeu table {
+    display: inline;
+    float: right;
+}
+
+.image-jeu img {
+    width: 300px;
+    margin-right: 50px;
+}
+
+.synopsis {
+    font-size: 75%;
+    width: 60%;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 4px;
+}
+
+.nav-button .right {
+    float: right;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+.nav-button .left {
+    float: left;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.wind-img {
+    height: auto;
+}
+
+.div-liste {
+    padding: 10px;
+    font-family: 'Arial';
+    background-color: rgba(255, 255, 255, 1);
+}
+img{
+    max-height: 400px;
+}

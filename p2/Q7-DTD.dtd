@@ -1,0 +1,7 @@
+<!ELEMENT mot (#PCDATA)>
+<!ELEMENT console (mot)+>
+<!ELEMENT glossaire (console)+>
+<!ELEMENT tableConsoles (glossaire*)>
+<!ATTLIST mot def (nom | dateDeSortie | impactEnvironemental) #REQUIRED>
+<!ATTLIST glossaire auteur CDATA #IMPLIED>
+<!ATTLIST glossaire type (salon | portable | hybride) #REQUIRED>

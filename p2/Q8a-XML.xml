@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tableConsoles SYSTEM "Q7-DTD.dtd">
+<?xml-stylesheet href="../src/V1/Q10a-XML.css" type="text/css"?>
+<tableConsoles>
+    <glossaire type="salon">
+        <console>
+            <mot def="nom">Nintendo 64</mot>
+            <mot def="impactEnvironemental">Modéré</mot>
+        </console>
+    </glossaire>
+    <glossaire type="hybride">
+        <console>
+            <mot def="nom">Nintendo Switch</mot>
+            <mot def="dateDeSortie">2016</mot>
+        </console>
+    </glossaire>
+</tableConsoles>

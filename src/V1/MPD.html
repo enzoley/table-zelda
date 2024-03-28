@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="logo.png" />
+    <link rel="stylesheet" href="Q10b-HTML.css" />
+    <title>MPD ZELDA</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="Q9-HTML.html"><img src="Zelda_Logo.svg.png" alt="logo navbar" /></a>
+
+        <ul>
+            <li><a href="Q9-HTML.html">ACCUEIL</a></li>
+            <li><a href="MCD.html">LE MCD</a></li>
+            <li><a href="MPD.html">MPD</a></li>
+            <li><a href="liens_utiles.html">LIENS UTILES</a></li>
+            <li><a href="jeux/timeline.html">TIMELINE</a></li>
+            <li><a href="jeux/Q11-HTML.html">XPATH</a></li>
+
+        </ul>
+    </div>
+    <div class="titre-div">
+        <h1 class="titre-site">MPD</h1>
+
+    </div>
+    <div class="div-body">
+        <p class="div-liste">
+            CREATE TABLE GENRE( <br />
+            ID INT PRIMARY KEY, <br />
+            NOM VARCHAR(40) NOT NULL, <br />
+            DESCRIPTION VARCHAR(40) <br />
+            ); <br />
+            <br />
+            CREATE TABLE THEME( <br />
+            ID INT PRIMARY KEY, <br />
+            NOM VARCHAR(40) NOT NULL, <br />
+            description VARCHAR(40) <br />
+            ); <br />
+            <br />
+            CREATE TABLE CONSOLE( <br />
+            ID INT PRIMARY KEY, <br />
+            NOM VARCHAR(40) NOT NULL, <br />
+            DATE_DE_SORTIE DATE, <br />
+            IMPACT_ENVIRONEMENTAL VARCHAR(40), <br />
+            TYPE VARCHAR(40) NOT NULL <br />
+            ); <br />
+            <br />
+            CREATE TABLE JOUEUR( <br />
+            ID INT PRIMARY KEY, <br />
+            PSEUDO VARCHAR(40) NOT NULL, <br />
+            DATE_DE_NAISSANCE DATE NOT NULL <br />
+            );<br />
+            <br />
+            CREATE TABLE EDITEUR( <br />
+            ID INT PRIMARY KEY, <br />
+            NOM VARCHAR(40) NOT NULL, <br />
+            LOCALISATION VARCHAR(40) NOT NULL, <br />
+            DATE_DE_CREATION DATE NOT NULL, <br />
+            FONDATEUR VARCHAR(40) NOT NULL <br />
+            ); <br />
+            <br />
+            CREATE TABLE CLASSIFICATION( <br />
+            ID INT PRIMARY KEY, <br />
+            AGE INT NOT NULL CHECK <br />
+            (AGE >= 0 AND AGE
+            <= 18) <br /> ); <br /> <br /> CREATE TABLE JEU( <br /> ID INT PRIMARY KEY, <br /> TITRE VARCHAR(40) NOT
+            NULL,
+            <br /> DATE_DE_SORTIE
+            DATE, <br /> NOTE_JOURNALISTIQUE INT, <br /> MULTIJOUEUR BOOLEAN, <br /> THEME INT, <br /> CLASSIFICATION
+            INT, <br /> FOREIGN KEY(THEME)
+            REFERENCES THEME(ID), <br /> FOREIGN KEY(CLASSIFICATION) REFERENCES CLASSIFICATION(ID) <br /> ); <br />
+            <br />
+            CREATE TABLE NOTER( <br />
+            IDJOUEUR INT, <br /> IDJEU INT, <br /> NOTE INT, <br /> PRIMARY KEY(IDJOUEUR, IDJEU) <br /> FOREIGN
+            KEY(IDJOUEUR) REFERENCES
+            JOUEUR(ID), <br /> FOREIGN KEY(IDJEU) REFERENCES JEU(ID) <br /> ); <br /> <br /> CREATE TABLE EST_GENRE(
+            <br />
+            IDGENRE INT, <br /> IDJEU INT, <br />
+            PRIMARY KEY (IDGENRE,IDJEU), <br /> FOREIGN KEY(IDGENRE) REFERENCES GENRE(ID), <br /> FOREIGN KEY(IDJEU)
+            REFERENCES
+            JEU(ID) <br />); <br /> <br /> CREATE TABLE JOUE_SUR( <br /> IDJEU INT, <br /> IDCONSOLE INT, <br /> PRIMARY
+            KEY
+            (IDJEU,IDCONSOLE), <br /> FOREIGN
+            KEY(IDJEU) REFERENCES JEU(ID), <br /> FOREIGN KEY(IDCONSOLE) REFERENCES CONSOLE(ID) <br /> ); <br /> <br />
+            CREATE
+            TABLE
+            CREER_PAR( <br />
+            IDJEU INT, <br /> IDEDITEUR INT, <br /> PRIMARY KEY(IDJEU,IDEDITEUR), <br /> FOREIGN KEY(IDJEU) REFERENCES
+            JEU(ID), <br /> FOREIGN
+            KEY(IDEDITEUR) REFERENCES EDITEUR(ID) <br /> ) <br />
+        <p>
+
+    </div>
+
+
+</body>
+
+</html>

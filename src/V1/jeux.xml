@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="jeux.css" type="text/css"?>
+<!DOCTYPE jeux SYSTEM "jeux.dtd">
+<jeux>
+    <timeline id="tradition">
+        <nomDeTimeline>La tradition divine et le héros du temps</nomDeTimeline>
+        <jeu id="skyward">
+            <nomDeJeu> Skyward Sword </nomDeJeu>
+            <dateDeSortie> 2011-11-08 </dateDeSortie>
+            <description>The Legend of Zelda : Skyward Sword est un jeu d'action-aventure sur Wii
+                dans lequel vous incarnez l'icône de la série : Link. Le héros devra sauver la
+                princesse Zelda dans un titre qui met en avant le Wii MotionPlus. Volez à dos de
+                Célestrier et combattez des forces maléfiques grâce à une multitude d'objets
+                améliorables.</description>
+            <note>18</note>
+            <multijoueur>Non</multijoueur>
+            <theme>Heroic-Fantasy</theme>
+            <classification>12</classification>
+        </jeu>
+        <jeu id="minish">
+            <nomDeJeu>Minish Cap</nomDeJeu>
+            <dateDeSortie>2004-11-04</dateDeSortie>
+            <description>Dans the Legend of Zelda : the Minish Cap, vous incarnez Link, le fils du
+                forgeron, dans sa quête pour sauver la princesse Zelda ensorcelée par Vaati. Au
+                cours de l'aventure, vous rencontrerez les Minish, un peuple d'êtres minuscules, et
+                ferez équipe avec Exelo, le chapeau magicien qui vous aidera à changer de taille.</description>
+            <note>17</note>
+            <multijoueur>Non</multijoueur>
+            <theme>Fantasy</theme>
+            <classification>3</classification>
+        </jeu>
+        <jeu id="swords">
+            <nomDeJeu>Four Swords</nomDeJeu>
+            <dateDeSortie>02/12/2002</dateDeSortie>
+            <description>Dans The Legend of Zelda: Four Swords, Link est invoqué par la princesse
+                Zelda pour aider à protéger le royaume d'Hyrule. Link doit s'aventurer à travers de
+                nombreux donjons pour vaincre les ennemis et récupérer des fragments de la Triforce.
+                Le gameplay repose sur la coopération entre plusieurs joueurs, car jusqu'à quatre
+                joueurs peuvent jouer simultanément en utilisant des connexions sans fil. Link est
+                accompagné par trois autres versions de lui-même, chacune habillée d'une tunique de
+                couleur différente. Ces versions de Link sont appelées Rouge Link, Bleu Link et
+                Violet Link. Les quatre Link doivent travailler ensemble pour surmonter les
+                obstacles, combattre les ennemis et résoudre les énigmes. Finalement, les quatre
+                Link doivent affronter Vaati, un puissant sorcier maléfique, et le vaincre pour
+                sauver le royaume d'Hyrule. </description>
+            <note>16</note>
+            <multijoueur>Oui</multijoueur>
+            <classification>7</classification>
+        </jeu>
+        <jeu id="ocarina">
+            <nomDeJeu>Ocarina of Time</nomDeJeu>
+            <dateDeSortie>1998-12-11</dateDeSortie>
+            <description>Dans The Legend of Zelda: Ocarina of Time, le jeune Link doit voyager dans
+                le temps pour empêcher le maléfique Ganondorf de prendre le contrôle du royaume
+                d'Hyrule. Link doit parcourir différents lieux du passé et du présent, collecter des
+                objets et des armes, résoudre des énigmes et vaincre des ennemis pour progresser
+                dans l'histoire. Avec l'aide de la princesse Zelda et du sage Impa, Link doit
+                obtenir les trois pierres spirituelles et la Triforce pour pouvoir affronter
+                Ganondorf. Finalement, Link doit affronter Ganon dans un combat final pour sauver le
+                royaume et rétablir la paix à Hyrule.</description>
+            <note>19</note>
+            <multijoueur>Non</multijoueur>
+            <theme>Heroic-Fantasy</theme>
+            <classification>3</classification>
+        </jeu>
+    </timeline>
+    <timeline id="ombre">
+        <nomDeTimeline>Le monde de l'ombre et la descendance du héros</nomDeTimeline>
+        <jeu id="Majora">
+            <nomDeJeu>Majora's Mask</nomDeJeu>
+            <dateDeSortie>2000-11-17</dateDeSortie>
+            <description>Dans The Legend of Zelda: Majora's Mask, Link est transporté dans le monde
+                mystérieux de Termina après avoir été attaqué par le Skull Kid, qui porte un masque
+                maléfique connu sous le nom de Majora's Mask. Link doit explorer les différentes
+                régions de Termina, collecter des masques magiques, résoudre des énigmes et aider
+                les habitants pour empêcher la lune de s'écraser sur la ville de Clock Town. Link
+                doit également voyager dans le temps pour revivre les trois jours avant la fin du
+                monde et déjouer les plans de Skull Kid et du pouvoir maléfique de Majora's Mask.
+                Finalement, Link doit affronter Skull Kid et le puissant pouvoir de Majora's Mask
+                pour sauver Termina.</description>
+            <note>19</note>
+            <multijoueur>Non</multijoueur>
+            <theme>Fantasy</theme>
+            <classification>3</classification>
+        </jeu>
+        <jeu id="Twilight">
+            <nomDeJeu>Twilight Princess</nomDeJeu>
+            <dateDeSortie>2006-12-08</dateDeSortie>
+            <description>Dans The Legend of Zelda: Twilight Princess, Link est transporté dans le
+                monde sombre et mystérieux du crépuscule après avoir été attaqué par des créatures
+                maléfiques. Dans ce monde, il est transformé en loup et doit explorer les
+                différentes régions d'Hyrule pour trouver un moyen de briser la malédiction. Link
+                est aidé par une mystérieuse créature appelée Midona, qui lui offre son aide pour
+                vaincre les forces maléfiques qui menacent le royaume. Au cours de son voyage, Link
+                doit résoudre des énigmes, combattre des ennemis et obtenir de nouveaux pouvoirs
+                pour avancer dans l'histoire. Finalement, Link doit affronter le puissant sorcier
+                Zanto et son maître maléfique, Ganondorf, pour sauver Hyrule et briser la
+                malédiction qui le retient prisonnier</description>
+            <note>19</note>
+            <multijoueur>Non</multijoueur>
+            <theme>Fantasy</theme>
+            <classification>12</classification>
+        </jeu>
+        <jeu id="four">
+            <nomDeJeu>Four Sword Adventure</nomDeJeu>
+            <dateDeSortie>2005-01-07</dateDeSortie>
+            <description>Dans The Legend of Zelda: Four Swords Adventures, Link est appelé à sauver
+                le royaume d'Hyrule après que le maléfique sorcier Vaati ait été libéré de sa
+                prison. Link doit trouver les quatre épées élémentaires pour vaincre Vaati et
+                restaurer la paix dans le royaume. Au cours de sa quête, Link doit affronter des
+                ennemis redoutables, explorer des donjons remplis de dangers et travailler en équipe
+                avec d'autres versions de lui-même pour triompher. Au final, Link doit faire face à
+                Vaati dans un combat épique pour restaurer la paix à Hyrule.</description>
+            <note>16</note>
+            <multijoueur>Oui</multijoueur>
+            <theme>Heroic-Fantasy</theme>
+            <classification>3</classification>
+        </jeu>
+    </timeline>
+    <timeline id="vent">
+        <nomDeTimeline>Le héros du vent et le nouveau monde</nomDeTimeline>
+        <jeu id="Wind">
+            <nomDeJeu>The Wind Waker</nomDeJeu>
+            <dateDeSortie>2003-05-03</dateDeSortie>
+            <description>Dans The Legend of Zelda: The Wind Waker, Link doit sauver sa sœur et le
+                royaume d'Hyrule de la menace du maléfique Ganondorf. Le monde est maintenant
+                recouvert par l'océan et Link doit voyager à bord de son bateau, le Lion Rouge, pour
+                explorer les différentes îles et collecter les fragments de la Triforce. Link est
+                accompagné par la mystérieuse pirate Tetra et doit affronter de nombreux ennemis,
+                résoudre des énigmes et découvrir les secrets du passé pour progresser dans
+                l'histoire. Finalement, Link doit affronter Ganondorf et libérer sa sœur et Hyrule
+                de son emprise.</description>
+            <note>20</note>
+            <multijoueur>Non</multijoueur>
+            <theme>Heroic-Fantasy</theme>
+            <classification>3</classification>
+        </jeu>
+        <jeu id="Phantom">
+            <nomDeJeu>Phantom Hourglass</nomDeJeu>
+            <dateDeSortie>2007-10-19</dateDeSortie>
+            <description>Dans The Legend of Zelda: Phantom Hourglass, Link est piégé dans le monde
+                mystérieux de la Grande Mer, où il doit sauver la princesse Zelda et affronter le
+                maléfique Bellum. Link est aidé par Linebeck, un capitaine de bateau lâche et avide,
+                et par Ciela, une fée qui le guide tout au long de son aventure. Au cours de son
+                périple, Link doit explorer les différentes îles de la Grande Mer, résoudre des
+                énigmes et collecter les différents éléments nécessaires pour progresser dans
+                l'histoire. Le gameplay utilise les fonctionnalités tactiles de la console Nintendo
+                DS pour les contrôles et les énigmes. Finalement, Link doit affronter Bellum pour
+                sauver Zelda et le monde de la Grande Mer.</description>
+            <note>18</note>
+            <multijoueur>Oui</multijoueur>
+            <theme>Heroic-Fantasy</theme>
+            <classification>7</classification>
+        </jeu>
+        <jeu id="Spirit">
+            <nomDeJeu>Spirit Tracks</nomDeJeu>
+            <dateDeSortie>2009-12-11</dateDeSortie>
+            <description>Dans The Legend of Zelda: Spirit Tracks, Link doit sauver la princesse
+                Zelda et restaurer les voies ferrées sacrées du royaume. Link est accompagné par la
+                princesse Zelda, qui aide Link en prenant possession d'un corps fantomatique pour
+                interagir avec le monde. Ensemble, ils doivent voyager à travers le royaume
+                d'Hyrule, combattre des ennemis, résoudre des énigmes et explorer des donjons. Le
+                gameplay utilise les fonctionnalités tactiles de la console Nintendo DS pour les
+                contrôles et les énigmes, ainsi que pour contrôler le train qui permet de se
+                déplacer sur les voies ferrées. Finalement, Link doit affronter le maléfique
+                Mallard, qui tente de s'emparer du pouvoir de la princesse Zelda et prendre le
+                contrôle du royaume.</description>
+            <note>18</note>
+            <multijoueur>Non</multijoueur>
+            <classification>7</classification>
+        </jeu>
+    </timeline>
+    <timeline id="declin">
+        <nomDeTimeline>Le déclin d'Hyrule et le dernier héros</nomDeTimeline>
+        <jeu id="Past">
+            <nomDeJeu>A Link to the Past</nomDeJeu>
+            <dateDeSortie>1992-09-24</dateDeSortie>
+            <description>Dans The Legend of Zelda: A Link to the Past, Link doit sauver le royaume
+                d'Hyrule de la menace du maléfique Agahnim et du sombre monde de Lorule. Link est
+                aidé par la princesse Zelda, qui lui donne des conseils et des informations, et par
+                Sahasrahla, un sage qui le guide dans sa quête. Link doit explorer les différentes
+                régions d'Hyrule et de Lorule, résoudre des énigmes et combattre des ennemis pour
+                progresser dans l'histoire. Le gameplay utilise les fonctionnalités classiques de la
+                série Zelda, avec des donjons à explorer, des armes et des objets à collecter et des
+                boss à vaincre. Finalement, Link doit affronter Agahnim et le sombre sorcier Ganon
+                pour sauver le royaume d'Hyrule et le monde de Lorule.</description>
+            <note>19</note>
+            <multijoueur>Non</multijoueur>
+            <theme>Heroic-Fantasy</theme>
+            <classification>7</classification>
+        </jeu>
+        <jeu id="Oracle">
+            <nomDeJeu>Oracle of Seasons</nomDeJeu>
+            <dateDeSortie>2001-10-05</dateDeSortie>
+            <description>Dans The Legend of Zelda: Oracle of Seasons, Link doit sauver le royaume
+                d'Holodrum de la sorcière Veran, qui a pris le contrôle des saisons et de la nature.
+                Link est aidé par Din, une oracle qui lui donne des pouvoirs saisonniers et des
+                conseils, et par Impa, une garde du corps qui protège Din. Link doit voyager à
+                travers les différentes régions d'Holodrum, résoudre des énigmes saisonnières et
+                combattre des ennemis pour progresser dans l'histoire. Le gameplay utilise les
+                fonctionnalités classiques de la série Zelda, avec des donjons à explorer, des armes
+                et des objets à collecter et des boss à vaincre. Finalement, Link doit affronter
+                Veran et libérer les saisons pour sauver le royaume d'Holodrum.</description>
+            <note>18</note>
+            <multijoueur>Non</multijoueur>
+            <classification>3</classification>
+        </jeu>
+        <jeu id="adventure">
+            <nomDeJeu>The Adventure of Link</nomDeJeu>
+            <dateDeSortie>1988-09-26</dateDeSortie>
+            <description>Dans Zelda II: The Adventure of Link, Link doit partir à la recherche des
+                fragments de la Triforce pour réveiller la princesse Zelda qui est plongée dans un
+                sommeil magique. Il est aidé par Impa, la garde du corps de la princesse Zelda, qui
+                lui donne des informations et des conseils. Link doit voyager à travers le monde
+                d'Hyrule, combattre des ennemis et explorer des donjons pour trouver les fragments
+                de la Triforce. Le gameplay est différent des autres jeux de la série, avec des
+                combats en temps réel et des éléments de jeu de rôle. Finalement, Link doit
+                affronter le grand sorcier Dark Link pour obtenir la Triforce et réveiller la
+                princesse Zelda.</description>
+            <note>17</note>
+            <multijoueur>Non</multijoueur>
+            <classification>3</classification>
+        </jeu>
+        <jeu id="Awakening">
+            <nomDeJeu>Link's Awakening</nomDeJeu>
+            <dateDeSortie>1993-12-01</dateDeSortie>
+            <description>Dans The Legend of Zelda: Link's Awakening, Link est échoué sur l'île de
+                Cocolint et doit trouver un moyen de la quitter en collectant les instruments
+                musicaux nécessaires pour réveiller le poisson-rêve, gardien de l'île. Link est aidé
+                par Marin, une jeune fille de l'île qui l'aide à comprendre le fonctionnement de
+                l'île et par Tarin, le grand-père de Marin. Link doit explorer les différents
+                endroits de l'île, résoudre des énigmes et combattre des ennemis pour trouver les
+                instruments musicaux. Le gameplay utilise les fonctionnalités classiques de la série
+                Zelda, avec des donjons à explorer, des armes et des objets à collecter et des boss
+                à vaincre. Finalement, Link doit affronter le Cauchemar pour réveiller le
+                poisson-rêve et quitter l'île de Cocolint.</description>
+            <note>18</note>
+            <multijoueur>Non</multijoueur>
+            <classification>3</classification>
+        </jeu>
+        <jeu id="Worlds">
+            <nomDeJeu>A Link Between Worlds</nomDeJeu>
+            <dateDeSortie>2013-11-22</dateDeSortie>
+            <description>Dans The Legend of Zelda: A Link Between Worlds, Link doit sauver le
+                royaume d'Hyrule et le royaume parallèle de Lorule des mains de Yuga, un sorcier
+                maléfique qui transforme les sages en tableaux et les kidnappe pour leur voler leur
+                pouvoir. Link est aidé par la princesse Hilda de Lorule, qui lui donne des
+                informations et des conseils. Link doit voyager à travers les différents endroits
+                des deux royaumes, résoudre des énigmes, combattre des ennemis et louer des objets
+                pour progresser dans l'histoire. Le gameplay utilise une mécanique unique qui permet
+                à Link de se transformer en peinture et de se déplacer sur les murs. Finalement,
+                Link doit affronter Yuga et son alter ego, Ganon, pour sauver les deux royaumes.</description>
+            <note>17</note>
+            <multijoueur>Non</multijoueur>
+            <theme>Heroic-Fantasy</theme>
+            <classification>7</classification>
+        </jeu>
+        <jeu id="Heroes">
+            <nomDeJeu>Tri Force Heroes</nomDeJeu>
+            <dateDeSortie>2015-10-23</dateDeSortie>
+            <description>Dans The Legend of Zelda: Tri Force Heroes, Link doit sauver le royaume
+                d'Hyrule des mains d'une sorcière maléfique qui a jeté un sort sur la princesse
+                d'Hyrule et l'a transformée en pierre. Link est aidé par deux autres héros, appelés
+                Totem Link et Chapeau Link, qui l'aident à résoudre les énigmes et à combattre les
+                ennemis. Les trois héros doivent voyager à travers plusieurs zones pour trouver des
+                matériaux et fabriquer des tenues spéciales qui leur donnent des capacités uniques.
+                Le gameplay repose sur la coopération entre les trois héros, qui doivent travailler
+                ensemble pour franchir les obstacles et vaincre les ennemis. Finalement, les héros
+                doivent affronter la sorcière maléfique et la vaincre pour libérer la princesse
+                d'Hyrule de son sortilège.</description>
+            <note>16</note>
+            <multijoueur>Oui</multijoueur>
+            <theme>Heroic-Fantasy</theme>
+            <classification>7</classification>
+        </jeu>
+        <jeu id="Legend">
+            <nomDeJeu>The Legend of Zelda</nomDeJeu>
+            <dateDeSortie>1987-11-15</dateDeSortie>
+            <description>The Legend of Zelda sur Nes vous présente la première aventure du jeune
+                Link. Débutez votre périple dans le fantastique monde d'Hyrule. A l'aide de votre
+                épée, de votre bouclier et de votre intelligence, retrouvez les huit fragments de la
+                Triforce et sauvez la princesse Zelda.</description>
+            <note>19</note>
+            <multijoueur>Non</multijoueur>
+            <classification>3</classification>
+        </jeu>
+    </timeline>
+    <timeline id="reunifiees">
+        <nomDeTimeline>Timelines réunifiées</nomDeTimeline>
+        <jeu id="Breath">
+            <nomDeJeu>Breath of the Wild</nomDeJeu>
+            <dateDeSortie>2017-03-03</dateDeSortie>
+            <description>Dans The Legend of Zelda: Breath of the Wild, Link se réveille après avoir
+                dormi pendant 100 ans pour découvrir que le royaume d'Hyrule est en ruines et sous
+                l'emprise du maléfique Ganon. Link est aidé par la princesse Zelda, Impa, un vieil
+                ami de Zelda, ainsi que d'autres personnages rencontrés au cours de son voyage. Link
+                doit voyager à travers les vastes paysages de Hyrule, escalader des montagnes, nager
+                dans des rivières et combattre des ennemis pour trouver des artefacts puissants qui
+                l'aideront à vaincre Ganon. Le gameplay est centré sur la découverte et
+                l'exploration du monde ouvert de Hyrule, avec la possibilité pour le joueur de
+                choisir librement l'ordre dans lequel il souhaite accomplir les différentes quêtes
+                et missions. Finalement, Link doit affronter Ganon et le vaincre pour libérer le
+                royaume d'Hyrule de son emprise maléfique.</description>
+            <note>20</note>
+            <multijoueur>Non</multijoueur>
+            <theme>Heroic-Fantasy</theme>
+            <classification>12</classification>
+        </jeu>
+        <jeu id="Tears">
+            <nomDeJeu>Tears of the Kingdoms</nomDeJeu>
+            <dateDeSortie>2023-05-12</dateDeSortie>
+            <description>The Legend of Zelda : Tears of the Kingdom est la suite du jeu
+                d'action/aventure de Nintendo de 2017. Le titre avait été pensé pour que le joueur
+                puisse aller où il veut dès le début, s'éloignant de la linéarité habituelle de la
+                série.</description>
+            <multijoueur>Non</multijoueur>
+        </jeu>
+    </timeline>
+</jeux>

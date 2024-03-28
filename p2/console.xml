@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE console SYSTEM "console.dtd">
+<console exhaustive="non">
+    <plateforme id="un">
+        <nom>NES</nom>
+        <dateDeSortie>1987</dateDeSortie>
+        <impactEnvironemental>Fort</impactEnvironemental>
+        <type>Salon</type>
+    </plateforme>
+    <plateforme id="deux">
+        <nom>SNES</nom>
+        <dateDeSortie>1992</dateDeSortie>
+        <impactEnvironemental>Fort</impactEnvironemental>
+        <type>Salon</type>
+    </plateforme>
+    <plateforme id="trois">
+        <nom>Nintendo 64</nom>
+        <dateDeSortie>1997</dateDeSortie>
+        <impactEnvironemental>Modéré</impactEnvironemental>
+        <type>Salon</type>
+    </plateforme>
+    <plateforme id="quatre">
+        <nom>Gamecube</nom>
+        <dateDeSortie>2002</dateDeSortie>
+        <impactEnvironemental>Modéré</impactEnvironemental>
+        <type>Salon</type>
+    </plateforme>
+    <plateforme id="cinq">
+        <nom>Wii</nom>
+        <dateDeSortie>2006</dateDeSortie>
+        <impactEnvironemental>Modéré</impactEnvironemental>
+        <type>Salon</type>
+    </plateforme>
+    <plateforme id="six">
+        <nom>Wii U</nom>
+        <dateDeSortie>2012</dateDeSortie>
+        <impactEnvironemental>Modéré</impactEnvironemental>
+        <type>Salon</type>
+    </plateforme>
+    <plateforme id="sept">
+        <nom>Nintendo Switch</nom>
+        <dateDeSortie>2017</dateDeSortie>
+        <impactEnvironemental>Faible</impactEnvironemental>
+        <type>Salon et Portable</type>
+    </plateforme>
+    <plateforme id="huit">
+        <nom>Gameboy</nom>
+        <dateDeSortie>1990</dateDeSortie>
+        <impactEnvironemental>Modéré</impactEnvironemental>
+        <type>Portable</type>
+    </plateforme>
+    <plateforme id="neuf">
+        <nom>Gameboy Color</nom>
+        <dateDeSortie>1998</dateDeSortie>
+        <impactEnvironemental>Modéré</impactEnvironemental>
+        <type>Portable</type>
+    </plateforme>
+    <plateforme id="dix">
+        <nom>Gameboy Advance</nom>
+        <dateDeSortie>2001</dateDeSortie>
+        <impactEnvironemental>Modéré</impactEnvironemental>
+        <type>Portable</type>
+    </plateforme>
+    <plateforme id="onze">
+        <nom>Gameboy Advance SP</nom>
+        <dateDeSortie>2003</dateDeSortie>
+        <impactEnvironemental>Modéré</impactEnvironemental>
+        <type>Portable</type>
+    </plateforme>
+    <plateforme id="douze">
+        <nom>Nintendo DS</nom>
+        <dateDeSortie>2005</dateDeSortie>
+        <impactEnvironemental>Modéré</impactEnvironemental>
+        <type>Portable</type>
+    </plateforme>
+    <plateforme id="treize">
+        <nom>Nintendo DSi</nom>
+        <dateDeSortie>2009</dateDeSortie>
+        <impactEnvironemental>Modéré</impactEnvironemental>
+        <type>Portable</type>
+    </plateforme>
+    <plateforme id="quatorze">
+        <nom>Nintendo 3DS</nom>
+        <dateDeSortie>2011</dateDeSortie>
+        <impactEnvironemental>Faible</impactEnvironemental>
+        <type>Portable</type>
+    </plateforme>
+</console>

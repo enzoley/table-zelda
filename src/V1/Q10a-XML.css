@@ -1,0 +1,44 @@
+* {
+    font-family: "Hylia Serif";
+}
+
+glossaire {
+    display: block;
+    margin: 20px;
+    padding: 10px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+glossaire::before {
+    display: block;
+    content: attr(type);
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+console {
+    display: block;
+    margin: 10px;
+    background-color: blanchedalmond;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+mot {
+    display: block;
+    margin: 5px;
+}
+
+mot::before {
+    content: attr(def);
+    padding: 5px;
+    font-size: 120%;
+}
+
+@font-face {
+    font-family: "Hylia Serif";
+    src: url("./HyliaSerifBeta-Regular.otf");
+}

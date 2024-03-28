@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tableConsoles SYSTEM "Q7-DTD.dtd">
+<?xml-stylesheet href="../src/V1/Q10a-XML.css" type="text/css"?>
+<tableConsoles>
+    <glossaire type="salon" auteur="enzo">
+        <console>
+            <mot def="nom">NES</mot>
+            <mot def="dateDeSortie">1987</mot>
+            <mot def="impactEnvironemental">Fort</mot>
+        </console>
+        <console>
+            <mot def="nom">SNES</mot>
+            <mot def="dateDeSortie">1992</mot>
+            <mot def="impactEnvironemental">Fort</mot>
+        </console>
+        <console>
+            <mot def="nom">Nintendo 64</mot>
+            <mot def="dateDeSortie">1997</mot>
+            <mot def="impactEnvironemental">Modéré</mot>
+        </console>
+        <console>
+            <mot def="nom">Gamecube</mot>
+            <mot def="dateDeSortie">2002</mot>
+            <mot def="impactEnvironemental">Modéré</mot>
+        </console>
+        <console>
+            <mot def="nom">Wii</mot>
+            <mot def="dateDeSortie">2006</mot>
+            <mot def="impactEnvironemental">Modéré</mot>
+        </console>
+        <console>
+            <mot def="nom">Wii U</mot>
+            <mot def="dateDeSortie">2012</mot>
+            <mot def="impactEnvironemental">Modéré</mot>
+        </console>
+    </glossaire>
+    <glossaire type="hybride">
+        <console>
+            <mot def="nom">Nintendo Switch</mot>
+            <mot def="dateDeSortie">2017</mot>
+            <mot def="impactEnvironemental">Faible</mot>
+        </console>
+    </glossaire>
+    <glossaire type="portable" auteur="nathan">
+        <console>
+            <mot def="nom">Gameboy</mot>
+            <mot def="dateDeSortie">1990</mot>
+            <mot def="impactEnvironemental">Modéré</mot>
+        </console>
+        <console>
+            <mot def="nom">Gameboy Color</mot>
+            <mot def="dateDeSortie">1998</mot>
+            <mot def="impactEnvironemental">Modéré</mot>
+        </console>
+        <console>
+            <mot def="nom">Gameboy Advance</mot>
+            <mot def="dateDeSortie">2001</mot>
+            <mot def="impactEnvironemental">Modéré</mot>
+        </console>
+        <console>
+            <mot def="nom">Gameboy Advance SP</mot>
+            <mot def="dateDeSortie">2003</mot>
+            <mot def="impactEnvironemental">Modéré</mot>
+        </console>
+        <console>
+            <mot def="nom">Nintendo DS</mot>
+            <mot def="dateDeSortie">2005</mot>
+            <mot def="impactEnvironemental">Modéré</mot>
+        </console>
+        <console>
+            <mot def="nom">Nintendo DSi</mot>
+            <mot def="dateDeSortie">2009</mot>
+            <mot def="impactEnvironemental">Faible</mot>
+        </console>
+        <console>
+            <mot def="nom">Nintendo 3DS</mot>
+            <mot def="dateDeSortie">2011</mot>
+            <mot def="impactEnvironemental">Faible</mot>
+        </console>
+    </glossaire>
+</tableConsoles>

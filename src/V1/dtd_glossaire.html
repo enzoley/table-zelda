@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="logo.png" />
+    <link rel="stylesheet" href="Q10b-HTML.css" />
+    <title>DTD glossaire</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="Q9-HTML.html"><img src="Zelda_Logo.svg.png" alt="logo navbar" /></a>
+
+        <ul>
+            <li><a href="Q9-HTML.html">ACCUEIL</a></li>
+            <li><a href="MCD.html">LE MCD</a></li>
+            <li><a href="MPD.html">MPD</a></li>
+            <li><a href="liens_utiles.html">LIENS UTILES</a></li>
+            <li><a href="jeux/timeline.html">TIMELINE</a></li>
+            <li><a href="jeux/Q11-HTML.html">XPATH</a></li>
+        </ul>
+    </div>
+    <div class="titre-div">
+        <h1 class="titre-site">La DTD</h1>
+    </div>
+    <div class="div-body">
+        <h3>Voici la DTD liée au fichier glossaire.xml</h3>
+        <p class="div-liste">
+            !ELEMENT mot (#PCDATA)> <br />
+            !ELEMENT console (mot)+> <br />
+            !ELEMENT glossaire (console)+> <br />
+            !ELEMENT tableConsoles (glossaire*)> <br />
+            !ATTLIST mot def (nom | dateDeSortie | impactEnvironemental) #REQUIRED> <br />
+            !ATTLIST glossaire auteur CDATA #IMPLIED> <br />
+            !ATTLIST glossaire type (salon | portable | hybride) #REQUIRED> <br />
+        </p>
+
+    </div>
+
+
+</body>
+
+</html>

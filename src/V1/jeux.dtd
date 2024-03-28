@@ -1,0 +1,13 @@
+<!ELEMENT nomDeJeu (#PCDATA)>
+<!ELEMENT dateDeSortie (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT note (#PCDATA)>
+<!ELEMENT multijoueur (#PCDATA)>
+<!ELEMENT theme (#PCDATA)>
+<!ELEMENT classification (#PCDATA)>
+<!ELEMENT jeu (nomDeJeu, dateDeSortie, description, note?, multijoueur, theme?, classification?)>
+<!ELEMENT timeline (nomDeTimeline,jeu+)>
+<!ELEMENT jeux (timeline)+>
+<!ELEMENT nomDeTimeline (#PCDATA)>
+<!ATTLIST timeline id ID #REQUIRED>
+<!ATTLIST jeu id ID #REQUIRED>
